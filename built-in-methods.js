@@ -21,3 +21,5 @@ let people = {
 let introductions = people.map((person)=>{
     return 'My name is ${person}.'
 })
+
+console.log(introductions)
