@@ -9,7 +9,7 @@ class Home{
     render(){
         let appElement = document.getElementById('app');
         appElement.innerHTML += `
-        <h1 class='text-center>Social Media Page</h1>
+            <h1 class='text-center'>Social Media Page</h1>
         `
     }
 }
