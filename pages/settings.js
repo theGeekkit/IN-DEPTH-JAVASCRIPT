@@ -1,7 +1,6 @@
-class Settings{
+export default class Settings{
     constructor(){
         this.render();
-
     }
 
     render(){

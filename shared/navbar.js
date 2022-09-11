@@ -1,4 +1,4 @@
-class Navbar{
+export default class Navbar{
     constructor(){
         this.render();
     }

@@ -1,4 +1,4 @@
-class Home{
+export default class Home{
 
     constructor(){
         // When home instance is created, call render
