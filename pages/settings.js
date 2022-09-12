@@ -1,6 +1,7 @@
 export default class Settings{
     constructor(){
         this.render();
+        this.addEventListeners();
     }
 
     render(){
@@ -16,11 +17,28 @@ export default class Settings{
                         <input type="text" class="form-control" id="user-input"> 
                     </div>
                     <div class="text-center">                    
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary" id="settings-btn">Submit</button>
                     </div>
                 </form>
                 </div>
             `         
         );
+    }
+    addEventListeners(){
+        // Declare variables
+        let settingsBtnElem = document.getElementById('settings-btn');
+
+        settingsBtnElem.addEventListener('click', (event)=>{
+            event.preventDefault();
+            let username = document.getElementById{'user-input'}.value
+            this.changeUsername(newUsername);
+        })
+    }
+
+
+    changeUsername(username){
+        letuserLabelElem = document.getElementById('user-label');
+
+        userLabelElem.innerText = `username: ${username}`
     }
 }
