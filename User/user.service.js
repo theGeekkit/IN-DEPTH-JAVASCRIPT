@@ -1,4 +1,4 @@
-import Observable from "../shared/observable";
+import Observable from "../shared/observable.js";
 
 class userService{
     user = {

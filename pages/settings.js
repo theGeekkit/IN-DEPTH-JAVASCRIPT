@@ -30,7 +30,7 @@ export default class Settings{
 
         settingsBtnElem.addEventListener('click', (event)=>{
             event.preventDefault();
-            let username = document.getElementById{'user-input'}.value
+            let userName = document.getElementById('user-input').value
             this.changeUsername(newUsername);
         })
     }
